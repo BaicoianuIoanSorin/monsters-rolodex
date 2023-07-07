@@ -51,9 +51,9 @@ const App = () => {
       <h1 className="app-title">Monster Rolodex</h1>
 
       <SearchBox
-        className="monsters-search-box"
+        className='monsters-search-box'
         onChangeHandler={onSearchChange}
-        placeholder="search monsters"
+        placeholder='search monsters'
       />
 
       <CardList monsters={filteredMonsters} />
